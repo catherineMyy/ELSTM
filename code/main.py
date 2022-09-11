@@ -2,10 +2,9 @@ import numpy as np
 import torch
 import torch.nn as nn
 from sythetic_dataset_station import SyntheticDataset
-from model_station import AttenCLSTM, Net_CLSTM, FeatureAttention
+from model_station import AttenCLSTM, Net_CLSTM
 from torch.utils.data import DataLoader
 import random
-import sklearn
 from tslearn.metrics import dtw, dtw_path
 from focal_loss import focal_loss
 from data_processing_station import *
